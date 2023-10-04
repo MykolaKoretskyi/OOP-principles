@@ -1,43 +1,68 @@
-  
-  Даний додаток являє собою Java-програму, для практичної демонстрації основних принципів ООП 
-способом створення та виводу в консоль ASCII-art об'єктів .
 
-Опис додатку:
+<h1>OOP-principles</h1>
 
-  Логіка програми основана на створенні батьківського об'єкту "Sandwich" та перевизначенні цього об'єкту 
-залежно від обраного користувачем типу. 
-  Користувач має можливість вибрати тип об'єкту серед запропонованих значень: 
-"classic", "salad", "sauce" вписавши відповідне значення у консоль.
+ <h2>Description of the Application</h2>
+  <p>This application is a Java program designed for practical demonstration of the fundamental principles of 
+Object-Oriented Programming (OOP) by creating and displaying ASCII art objects in the console.</p>
 
-  В даній програмі реалізовані такі принципи ООП:
+  <p>The program's logic is based on creating a parent object called "Sandwich" and overriding this object 
+depending on the type chosen by the user. The user can select the object type from the provided values: 
+"classic," "salad," or "sauce" by entering the corresponding value in the console.</p>
 
--наслідування,- це властивості класів "SandwichWithSalad" та "SandwichWithSauce" використовувати 
-                методи ("readProperty(property); getOrangeColor(); getBrownColor(); getResetColor()") 
-                батьківського класу "Sandwich".
+  <p>The following OOP principles are implemented in this program:</p>
 
--поліморфізм,- вказує, що в різних ситуаціях об'єкт поводить себе по-різному, в даному випадку досягається 
-               шляхом переопреділення методу "prepareAndPrintSandwich()" в дочірніх класах 
-               "SandwichWithSalad" та "SandwichWithSauce". Прикладом поліморфізму є переназначення 
-               змінної-посилання на об'єкт батьківського класу в основному класі "PrinciplesOOP" змінній 
-               "sandwich" яка є посиланням на об'єкт класу "Sandwich" призначається новий об'єкт 
-               дочірніх класів "sandwich = new SandwichWithSalad()" або "sandwich = new SandwichWithSauce()".
+  <ul>
+   <li>
+<p><b>Inheritance:</b> This is represented by the properties of the classes "SandwichWithSalad" 
+and "SandwichWithSauce," which use methods such as "readProperty(property), getOrangeColor(), getBrownColor(), 
+getResetColor()" from the parent class "Sandwich."
+</p>
+</li>
 
--інкапсуляція,- обмежує доступ до полів та методів класу з допомогою модифікаторів доступу "private", 
-               "protected", "public". Доступ до полів класу відбувається за допомогою методів get(); set().
+<li>
+<p><b>Polymorphism:</b> It indicates that an object behaves differently in different situations. In this case, 
+it is achieved by overriding the method "prepareAndPrintSandwich()" in the child classes "SandwichWithSalad" 
+and "SandwichWithSauce." An example of polymorphism is the reassignment of a variable reference to an object 
+of the parent class in the main class "PrinciplesOOP." The variable "sandwich," which is a reference to an object 
+of the "Sandwich" class, is assigned a new object of the child classes, either "sandwich = new SandwichWithSalad()" 
+or "sandwich = new SandwichWithSauce()".</p>
+</li>
 
--абстракція,- приховування внутрішніх деталей і описання функцій простими іменами. Принцип абстракції можна 
-              досягнути з допомогою наслідування та інкапсуляції. В даній програмі прикладом абстракції 
-              являється використання методу "readProperty(property)" батьківського класу "Sandwich" 
-              в дочірньому класі "SandwichWithSalad".
+<li>
+<p><b>Encapsulation:</b> It restricts access to class fields and methods using access modifiers like "private," 
+"protected," and "public." Access to class fields is provided through get() and set() methods.</p>
+</li>
+
+<li>
+<p><b>Abstraction:</b> It involves hiding internal details and describing functions with simple names. 
+The principle of abstraction can be achieved through inheritance and encapsulation. In this program, an example 
+of abstraction is the use of the "readProperty(property)" method from the parent class "Sandwich" in the child 
+class "SandwichWithSalad."</p>
+<p>Other OOP principles such as "association," "aggregation," and "composition" are not illustrated in this example.</p>
+</li>
+
+<li>
+<p><b>Association:</b> Achieved by having objects of one class in the fields of another class.</p>
+</li>
+
+<li>
+<p><b>Aggregation:</b> Achieved by having objects of one class in the fields of another class, with the object 
+of the second class passed through the constructor when creating an object of the first class.</p>
+</li>
+
+<li>
+<p><b>Composition:</b> Achieved by having objects of one class in the fields of another class, where the object 
+of the second class is created in the constructor of the first class. In other words, the object of the second 
+class cannot exist without the first class.</p>
+</li>
+
+</ul>
+
+ <h2>Technologies Used</h2>
+
+<ul>
+<li>Java</li>
+<li>OOP</li>
+</ul>
 
 
-   Інші принципи ООП такі, як "асоціація", "агрегація" та "композиція" в даному прикладі не відображені. 
-
--асоціація,- досягається наявністю в полях одного класу об'єктів іншого класу.
-
--агрегація,- досягається наявністю в полях першого класу об'єктів другого класу, коли об'єкт другого класу 
-             передається через конструктор при створенні об'єкту першого класу.
-
--композиція,- досягається наявністю в полях першого класу об'єктів другого класу, коли об'єкт другого класу 
-              створюється в конструкторі першого класу, тобто об'єкт другого класу не може існувати без 
-              першого класу. 

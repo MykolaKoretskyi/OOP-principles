@@ -58,6 +58,8 @@ class cannot exist without the first class.</p>
 
 </ul>
 
+<h2>Screenshots of the application console</h2>
+
 ![Request from the program](./assets/request.jpg) 
 ![A classic sandwich with meat](./assets/classic.jpg) 
 ![Sandwich with salad](./assets/salad.jpg) 

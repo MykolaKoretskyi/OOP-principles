@@ -58,7 +58,10 @@ class cannot exist without the first class.</p>
 
 </ul>
 
-![A classic sandwich with meat](./assets/classic.jpg) ![Sandwich with salad](./assets/salad.jpg) ![Sandwich with sauce](./assets/sause.jpg)
+![Request from the program](./assets/request.jpg) 
+![A classic sandwich with meat](./assets/classic.jpg) 
+![Sandwich with salad](./assets/salad.jpg) 
+![Sandwich with sauce](./assets/sause.jpg)
 
  <h2>Technologies Used</h2>
 

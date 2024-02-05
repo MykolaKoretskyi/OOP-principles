@@ -58,11 +58,6 @@ class cannot exist without the first class.</p>
 
 </ul>
 
-<h2>Screenshots of the application console</h2>
-
-![Request from the program](./assets/request.jpg) 
-![A classic sandwich with meat](./assets/classic.jpg) 
-
  <h2>Technologies Used</h2>
 
 <ul>
@@ -70,4 +65,8 @@ class cannot exist without the first class.</p>
 <li>OOP</li>
 </ul>
 
+<h2>Screenshots of the application console</h2>
+
+![Request from the program](./assets/request.jpg) 
+![A classic sandwich with meat](./assets/classic.jpg) 
 

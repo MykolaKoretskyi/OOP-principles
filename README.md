@@ -65,7 +65,7 @@ class cannot exist without the first class.</p>
 <li>OOP</li>
 </ul>
 
-<h2>Screenshots of the application console</h2>
+<h2>Screenshots</h2>
 
 <h3>Inheritance</h3>
 

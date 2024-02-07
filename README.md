@@ -85,7 +85,7 @@ class cannot exist without the first class.</p>
 
 <h3>Program operation in the console</h3>
 
-![Request from the program](./assets/request.jpg) 
+![Request from the program](./assets/request-response.jpg) 
 
 
 

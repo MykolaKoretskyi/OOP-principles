@@ -57,5 +57,4 @@ public class Sandwich {
   public String getResetColor() {
     return RESET_COLOR;
   }
-
 }

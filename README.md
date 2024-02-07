@@ -67,6 +67,27 @@ class cannot exist without the first class.</p>
 
 <h2>Screenshots of the application console</h2>
 
+<h3>Inheritance</h3>
+
+![Inheritance](./assets/screenshot-1.jpg) 
+
+<h3>Polymorphism</h3>
+
+![Polymorphism](./assets/screenshot-2.jpg) 
+
+<h3>Encapsulation</h3>
+
+![Encapsulation](./assets/screenshot-3.jpg) 
+
+<h3>Abstraction</h3>
+
+![Abstraction](./assets/screenshot-4.jpg) 
+
+<h3>Program operation in the console</h3>
+
 ![Request from the program](./assets/request.jpg) 
-![A classic sandwich with meat](./assets/classic.jpg) 
+
+
+
+
 
